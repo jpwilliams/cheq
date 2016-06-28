@@ -1,0 +1,20 @@
+{
+  "name": "cheq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap.js test/**/*.test.js -w"
+  },
+  "author": "Jack Williams <jpwilliamsphotography@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.4",
+    "sinon-chai": "^2.8.0"
+  },
+  "dependencies": {
+    "eventemitter3": "^1.2.0"
+  }
+}
