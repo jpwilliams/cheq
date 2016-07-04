@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap.js test/*.test.js -w",
-    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- --require test/bootstrap.js test/*.test.js"
+    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- --require test/bootstrap.js test/*.test.js",
+    "build": "node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly -- -R spec --require test/bootstrap.js test/*.test.js && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "author": "Jack Williams <jpwilliamsphotography@gmail.com>",
   "license": "ISC",
