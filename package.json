@@ -4,17 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap.js test/**/*.test.js -w"
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap.js test/*.test.js -w",
+    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- --require test/bootstrap.js test/*.test.js"
   },
   "author": "Jack Williams <jpwilliamsphotography@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "async": "^2.0.0-rc.6",
     "chai": "^3.5.0",
+    "istanbul": "^0.4.4",
     "mocha": "^2.5.3",
     "sinon": "^1.17.4",
     "sinon-chai": "^2.8.0"
   },
   "dependencies": {
+    "debug": "^2.2.0",
     "eventemitter3": "^1.2.0"
   }
 }

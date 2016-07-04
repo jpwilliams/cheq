@@ -1,5 +1,7 @@
-module.exports = (function () {
-    console.log('Making instance of Cheq')
+var debug = require('debug')('cheq')
 
-    return new require('./lib/cheq')
+module.exports = (function () {
+    debug('Cheq\'s being required')
+
+    return require('./lib/cheq')
 })()
