@@ -1,8 +1,6 @@
 var cheq = require('../index')
 var async = require('async')
 
-console.log(cheq)
-
 describe('Cheq', function () {
     it('should expose the cheq function', function () {
         expect(cheq).to.be.a('function')
