@@ -3,14 +3,14 @@
 [![Build Status](https://api.travis-ci.org/jpwilliams/cheq.svg)](https://travis-ci.org/jpwilliams/cheq) [![Coverage Status](https://coveralls.io/repos/github/jpwilliams/cheq/badge.svg?branch=master)](https://coveralls.io/github/jpwilliams/cheq?branch=master) [![Dependencies](https://img.shields.io/david/jpwilliams/cheq.svg)]()
 
 ```
-`cheq`'s a lovely little module
+cheq's a lovely little module
 That helps with making sure
 That variable A and connection B
 Are always there for more
 
 Whether they die from one big error
 Or just simply time out
-`cheq`'s here to help them get back up
+cheq's here to help them get back up
 So there's no need to pout
 ```
 
