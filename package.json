@@ -15,12 +15,12 @@
     "chai": "^3.5.0",
     "coveralls": "^2.11.9",
     "istanbul": "^0.4.4",
-    "mocha": "^2.5.3",
+    "mocha": "^3.2.0",
     "sinon": "^1.17.4",
     "sinon-chai": "^2.8.0"
   },
   "dependencies": {
     "debug": "^2.2.0",
-    "eventemitter3": "^1.2.0"
+    "eventemitter3": "^2.0.2"
   }
 }
